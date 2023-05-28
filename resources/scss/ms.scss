@@ -13,6 +13,25 @@ h1 {
     color: forestgreen;
 }
 
+ul {
+    padding: 0;
+}
+
+li {
+    padding: 35px 0;
+    border-bottom: 1px solid wheat;
+    cursor: cell;
+}
+
+li:hover {
+    background-color: #3f504e;
+    text-shadow: 1px 1px 1px black;
+}
+
+li > *{
+    margin: 0 5px;
+}
+
 .navbar-icon {
     background-color: forestgreen;
     color: wheat;
@@ -42,4 +61,15 @@ h1 {
     border-top: 1px solid #46544d;
     border-bottom: 1px solid #46544d;
     background-color: #212925;
+}
+
+.ms-container {
+    padding: 0 36px;
+}
+
+.home-page {
+    height: 450px;
+    font-size: 10rem;
+    color: wheat;
+    text-shadow: 2px 2px 1px black;
 }
