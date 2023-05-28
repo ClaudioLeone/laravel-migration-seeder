@@ -12,3 +12,28 @@ body {
 h1 {
     color: forestgreen;
 }
+
+.navbar-icon {
+    background-color: forestgreen;
+    color: wheat;
+    text-shadow: 1px 1px 1px #212529;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    box-shadow: 3px 3px black;
+    padding: 3px 10px;
+    font-weight: bold;
+}
+
+.navbar-icon:hover {
+    background-color: #e1e778;
+    color: #212529;
+}
+
+.navbar-icon:active {
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.nav-item > li > a {
+    color: wheat;
+}
