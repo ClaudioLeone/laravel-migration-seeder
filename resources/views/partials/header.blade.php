@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid justify-content-center py-3 ms-navbar-bg">
           <a class="navbar-brand navbar-icon" href="{{ route('home') }}">🏡 Home</a>
-          <a class="navbar-brand navbar-icon" href="{{ route('home') }}">🚅 Treni</a>
+          <a class="navbar-brand navbar-icon" href="{{ route('trains') }}">🚅 Treni</a>
         </div>
     </nav>
 </header>

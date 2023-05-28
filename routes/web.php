@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Guest\HomeController;
+use App\Http\Controllers\Guest\TrainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/trains', [TrainController::class, 'index'])->name('trains');
