@@ -20,7 +20,7 @@ h1 {
     border-radius: 10px;
     border: 1px solid wheat;
     box-shadow: 3px 3px black;
-    padding: 3px 10px;
+    padding: 3px 35px;
     font-weight: bold;
 }
 
@@ -36,4 +36,10 @@ h1 {
 
 .nav-item > li > a {
     color: wheat;
+}
+
+.ms-navbar-bg {
+    border-top: 1px solid #46544d;
+    border-bottom: 1px solid #46544d;
+    background-color: #212925;
 }
